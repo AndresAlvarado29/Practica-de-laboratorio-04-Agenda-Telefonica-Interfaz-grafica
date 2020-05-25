@@ -12,19 +12,19 @@ import java.awt.Frame;
  *
  * @author HI andres
  */
-public class MiVentana extends Frame {
+public class Ventana extends Frame {
 
-    public MiVentana(String titulo) {
+    public Ventana(String titulo) {
         this.setTitle(titulo);
         this.setVisible(true);
     }
 
-    public MiVentana(String titulo, int ancho, int alto) {
+    public Ventana(String titulo, int ancho, int alto) {
         this(titulo);
         this.setSize(ancho, alto);
     }
 
-    public MiVentana() {
+    public Ventana() {
         this("Agenda Telefónica", 600, 400);
     }
 
