@@ -25,7 +25,7 @@ public class Ventana extends Frame {
     }
 
     public Ventana() {
-        this("Agenda Telefónica", 600, 400);
+        this("Agenda Telefónica", 500, 350);
     }
 
 }
