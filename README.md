@@ -3,29 +3,29 @@ Creación de una interfaz gráfica para el proyecto de la agenda telefónica
 
 **Herramientas**
 
-1.IDE: NetBeans Apache 11.0
+1. IDE: NetBeans Apache 11.0
 
-2.Java: JDK 1.8.0
+2. Java: JDK 1.8.0
 
 **Librerias**
 
-1.java.awt.BorderLayout;
+1. java.awt.BorderLayout;
 
-2.java.awt.Button;
+2. java.awt.Button;
 
-3.java.awt.FlowLayout;
+3. java.awt.FlowLayout;
 
-4.java.awt.GridLayout;
+4. java.awt.GridLayout;
 
-5java.awt.Label;
+5. java.awt.Label;
 
-6.java.awt.Panel;
+6. java.awt.Panel;
 
-7.java.awt.Point;
+7. java.awt.Point;
 
 **REALIZACION DE LA PRACTICA**
 
-1.Creacion del prototipo.
+1. Creacion del prototipo.
 
 Menú Principal
 
@@ -57,32 +57,32 @@ Sub menú
 
 ![image](https://user-images.githubusercontent.com/65028395/82981603-0e3b8c00-9fb2-11ea-9d03-e6813dbb4786.png)
 
-2 Realizar la interfaz grafica en NetBeans (Solo del sub menú).
+2. Realizar la interfaz grafica en NetBeans (Solo del sub menú).
 
-a.Las Clases que se usaran para la creacion del proyecto
+  a. Las Clases que se usaran para la creacion del proyecto
 
 ![image](https://user-images.githubusercontent.com/65028395/82982171-2eb81600-9fb3-11ea-84c0-b39333f385ad.png)
 
 
-b.La Ventana en ejecución
+  b. La Ventana en ejecución
 
 ![image](https://user-images.githubusercontent.com/65028395/82982231-57d8a680-9fb3-11ea-9a97-8c2af8999f08.png)
 
-3.Los commits realizados en el proyecto.
+3. Los commits realizados en el proyecto.
 
 Se realizaron en total 7 commits
 
 RESULTADO(S) OBTENIDO(S):
 
-•	Crear el prototipo del proyecto de la practica 3.
+  •	Crear el prototipo del proyecto de la practica 3.
 
-•	Se logró implementar la interfaz gráfica de java AWT, usando sus componentes gráficos.
+  •	Se logró implementar la interfaz gráfica de java AWT, usando sus componentes gráficos.
 
 CONCLUSIONES:
 
-•	En conclusión crear un prototipo para una aplicación genera conocimiento para la implementación de la experiencia de usuario para proyectos futuros 
+  •	En conclusión crear un prototipo para una aplicación genera conocimiento para la implementación de la experiencia de usuario para proyectos futuros 
 
-•	Para mejorar la interfaz se recomiendo usar más el JFrame para no tener problemas de ubicación de los botones 
+  •	Para mejorar la interfaz se recomiendo usar más el JFrame para no tener problemas de ubicación de los botones 
 
 
 
