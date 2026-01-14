@@ -24,7 +24,7 @@ jobs:
 
       - uses: anomalyco/opencode/github@v0.4.2
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.HUGGING_FACE_APIKEY }}
           OPENAI_BASE_URL: https://api-inference.huggingface.co/v1
         with:
           model: openai/Qwen/Qwen2.5-Coder-32B-Instruct
