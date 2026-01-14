@@ -27,5 +27,6 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.HUGGING_FACE_APIKEY }}
           OPENAI_BASE_URL: https://api-inference.huggingface.co/v1
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           model: openai/Qwen/Qwen2.5-Coder-32B-Instruct
