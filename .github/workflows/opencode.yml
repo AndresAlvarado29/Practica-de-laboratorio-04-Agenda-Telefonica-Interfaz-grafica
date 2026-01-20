@@ -13,20 +13,19 @@ jobs:
       contains(github.event.comment.body, '/opencode')
     runs-on: ubuntu-latest
     permissions:
-      contents: read
-      pull-requests: write
-      issues: write
       id-token: write
-
     steps:
-      - uses: actions/checkout@v6
-        with:
-          fetch-depth: 1
+       - name: Checkout repository
+         uses: actions/checkout@v6
+         with:
+           fetch-depth: 1
+           persist-credentials: false
 
-      - uses: anomalyco/opencode/github@v0.4.2
-        env:
-          OPENAI_API_KEY: ${{ secrets.HUGGING_FACE_APIKEY }}
-          OPENAI_BASE_URL: https://api-inference.huggingface.co/v1
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          model: openai/Qwen/Qwen2.5-Coder-32B-Instruct
+       - name: Run OpenCode
+         uses: anomalyco/opencode/github@latest
+         env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+         with:
+          model: anthropic/claude-sonnet-4-20250514
+          # share: true
+          # github_token: xxxx
